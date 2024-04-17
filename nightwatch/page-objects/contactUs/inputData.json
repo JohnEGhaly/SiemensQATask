@@ -1,0 +1,21 @@
+{
+    "contactUsData":{
+        "title": "Contact us - My Store",
+        "validEmail": "john@gmail.com",
+        "inValidEmail": "john@gmail",
+        "customerServiceMessage":"For any question about a product, an order",
+        "webMasterMessage":"If a technical problem occurs on this website",
+        "errorTitle":"There is 1 error",
+        "messageBody":"Message Content",
+        "invalidEmailErrorMessage":"Invalid email address.",                
+        "invalidMessageErrorMessage":"The message cannot be blank.",
+        "invalidSubjectHeadingMessage":"Please select a subject from the list provided.",
+        "successMessage":"Your message has been successfully sent to our team.",
+        "homePageUrl":"http://automationpractice.multiformis.com/index.php",
+        "filePath":"nightwatch/page_objects/contactUs/uploadTestFile.txt",     
+        "contactUsUrl":"http://automationpractice.multiformis.com/index.php?controller=contact",
+        "spaceMessage":"      ",
+        "emailWithSpaces":"  john@gmail.com  "
+    }
+
+}
