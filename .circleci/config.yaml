@@ -11,10 +11,10 @@ jobs:
   contactUsTesting:
     docker:
       - image: cimg/node:lts-browsers
-    working_directory: ~/JOHN-SIEMENS/
+    working_directory: ~/SiemensQATask/
     steps:
       - checkout:
-          path: ~/JOHN-SIEMENS
+          path: ~/SiemensQATask
       - browser-tools/install-chrome
 
       - run:
@@ -29,15 +29,15 @@ jobs:
 
       - run:
           name: Execute tests
-          command:  npx nightwatch ~/JOHN-SIEMENS/nightwatch/tests/contactUsTest.js 
+          command:  npx nightwatch ~/SiemensQATask/nightwatch/tests/contactUsTest.js 
 
   searchDressTesting:
     docker:
       - image: cimg/node:lts-browsers
-    working_directory: ~/JOHN-SIEMENS/
+    working_directory: ~/SiemensQATask/
     steps:
       - checkout:
-          path: ~/JOHN-SIEMENS
+          path: ~/SiemensQATask
       - browser-tools/install-chrome
 
       - run:
@@ -52,15 +52,15 @@ jobs:
 
       - run:
           name: Execute tests
-          command:  npx nightwatch ~/JOHN-SIEMENS/nightwatch/tests/searchDressTest.js 
-          
+          command:  npx nightwatch ~/SiemensQATask/nightwatch/tests/searchDressTest.js 
+
   apiTesting:
     docker:
       - image: cimg/node:lts-browsers
-    working_directory: ~/JOHN-SIEMENS/APITesting/
+    working_directory: ~/SiemensQATask/APITesting/
     steps:
       - checkout:
-          path: ~/JOHN-SIEMENS
+          path: ~/SiemensQATask
 
       - run:
           name: Install user    
