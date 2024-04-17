@@ -12,7 +12,7 @@
         "invalidSubjectHeadingMessage":"Please select a subject from the list provided.",
         "successMessage":"Your message has been successfully sent to our team.",
         "homePageUrl":"http://automationpractice.multiformis.com/index.php",
-        "filePath":"/Users/apple/Desktop/john-siemens/nightwatch/page-objects/contactUs/uploadTestFile.txt",     
+        "filePath":"./nightwatch/page-objects/contactUs/uploadTestFile.txt",     
         "contactUsUrl":"http://automationpractice.multiformis.com/index.php?controller=contact",
         "spaceMessage":"      ",
         "emailWithSpaces":"  john@gmail.com  "
