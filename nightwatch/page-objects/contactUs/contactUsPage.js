@@ -35,7 +35,6 @@ const contactCommands = {
         .setValue(this.elements.email, inputData.contactUsData.emailWithSpaces)
         .click(this.elements.clickOnBigLayout)
         .assert.elementPresent(this.elements.ValidEmailSign);
-       // .assert.elementPresent(this.elements.inValidEmailSign);
       
       this.pause(1000);
       return this; // for command-chaining

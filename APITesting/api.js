@@ -21,7 +21,6 @@ describe('api testing', () =>  {
         expect(response.status).to.equal(200);
         expect(response.body).to.have.property('token');
         authToken=response.body.token
-        console.log('Authorization token:', authToken);
         }),
     it('testing authentication on user with invalid input', async () => {
         const response = await request(app)

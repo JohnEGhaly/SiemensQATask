@@ -10,8 +10,8 @@ describe('Search Dress', function() {
         
     });
     it('assert on search results when searching for “dress”', function(browser) {
-        searchDress.setSearchTextBox(browser)
-        searchDress.clickSearchButton(browser)
+        searchDress.setSearchTextBox()
+        searchDress.clickSearchButton()
         searchDress.assertOnEachSearchResult(browser)
     })
     after(browser => browser.end());
