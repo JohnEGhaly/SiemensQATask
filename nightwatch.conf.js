@@ -65,8 +65,11 @@ module.exports = {
 
         // define mocha specific options
         options : {
-          ui: 'bdd',
-          reporter: 'list'
+          reporter: 'mochawesome',
+          reporterOptions:{
+            reportDir: 'htmlReports',
+            reportName: 'report'
+          }
         }
       }
     },
