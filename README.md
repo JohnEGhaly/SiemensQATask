@@ -2,7 +2,7 @@
 
 This repository contains the code for the Siemens QA Task.
 
-[![CircleCI](https://circleci.com/gh/JohnEGhaly/SiemensQATask.svg?style=svg)](https://app.circleci.com/pipelines/circleci/BPLUdcjd1LnqY9SpuMebBz/NoEMmJreiUtCoknn29W4cr)
+[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/BPLUdcjd1LnqY9SpuMebBz/NoEMmJreiUtCoknn29W4cr/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/circleci/BPLUdcjd1LnqY9SpuMebBz/NoEMmJreiUtCoknn29W4cr/tree/main)
 
 
 ## Overview
